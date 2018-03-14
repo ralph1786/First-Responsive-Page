@@ -1,0 +1,134 @@
+footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from rgb(114, 218, 247), to rgb(4, 151, 192));
+    background-image: -webkit-linear-gradient(top, rgb(114, 218, 247), rgb(4, 151, 192));
+    background-image: -moz-linear-gradient(top, rgb(114, 218, 247), rgb(4, 151, 192));
+    background-image: linear-gradient(to bottom, rgb(114, 218, 247), rgb(4, 151, 192));
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    padding: 3%;
+    color: white;
+}
+
+button {
+    background-color: rgb(233, 67, 169);
+    color: white;
+    height: 40px;
+    padding: 4px 6px;
+    margin-top: 3%;
+    cursor: pointer;
+}
+
+.navbar { 
+    background-image: -webkit-gradient(linear, left top, left bottom, from rgb(4, 151, 192), to rgb(114, 218, 247));
+    background-image: -webkit-linear-gradient(top, rgb(4, 151, 192), rgb(114, 218, 247));
+    background-image: -moz-linear-gradient(top, rgb(4, 151, 192), rgb(114, 218, 247));
+    background-image: linear-gradient(to bottom, rgb(4, 151, 192), rgb(114, 218, 247));
+    font-size: 18px;
+    font-family: Helvetica, sans-serif;
+}
+
+.carousel-caption {
+    font-family: "Kalam", sans-serif;
+}
+
+.carousel-caption p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.container h2 {
+    margin-bottom: 2%;
+    font-family: "Kalam", sans-serif;
+    color: rgb(4, 151, 192) 
+}
+
+.container h4 {
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(114, 218, 247);
+}
+
+.container h5 a {
+    color: rgb(114, 218, 247);
+}
+
+.container a:hover {
+    text-decoration: none;   
+}
+
+.container p {
+    font-family: "Dekko", sans-serif;
+    font-size: 16px; 
+}
+
+.container img {
+    padding-top: 5px;
+    padding-right: 2px; 
+}
+
+.fa {
+    padding: 20px;
+    color: white;
+    margin: 0 -3%;
+}
+
+.fa:hover {
+    color: rgb(233, 67, 169);
+    text-decoration: none;
+}
+
+#hotel-logo {
+    padding-top: 5px;
+}
+
+#travelicons {
+    border-radius: 50%;
+}
+
+    /*This adds responsiveness to page*/
+@media(max-width: 1200px){
+    #travelicons {
+        max-width: 150px;
+    }
+    .container h4, .container p {
+        padding: 10px;
+        margin: 10px;
+    }
+    h5 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .fa {
+        padding: 15px;
+    }
+    h5 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .carousel-caption {
+        display: none;
+    }
+    h5 {
+        text-align: center;
+    }
+    .img-fluid-cruise {
+        width: 180px;
+        height: 160px;
+    }
+    .img-fluid-whale {
+        width: 75px;
+        height: 85px;
+    }
+    .img-fluid-plane {
+        width: 280px;
+        height: 240px;
+    }
+}
